@@ -1,0 +1,106 @@
+{
+    "projects" : [
+        
+            {
+              "id": 1,
+              "title": "E-Commerce Platform",
+              "slug": "e-commerce-platform",
+              "description": "A fully-functional e-commerce website with product listings, shopping cart,  using MERN stack.",
+              "price": 299.99,
+              "developer": "John Doe",
+              "isFeatured": true,
+              "image": "/projects/e-commerce.jpeg"
+            },
+            {
+              "id": 2,
+              "title": "Social Media App",
+              "slug": "social-media-app",
+              "description": "Build a real-time social media platform with user authentication, posts, likes, and messaging features using MERN stack.",
+              "price": 399.99,
+              "developer": "Jane Smith",
+              "isFeatured": true,
+              "image": "/projects/social-media.jpg"
+            },
+            {
+              "id": 3,
+              "title": "Task Management Tool",
+              "slug": "task-management-tool",
+              "description": "A project management tool that allows users to create, update, and manage tasks with features like drag-and-drop and real-time updates.",
+              "price": 199.99,
+              "developer": "Alice Johnson",
+              "isFeatured": false,
+              "image": "/projects/task-management.webp"
+            },
+            {
+              "id": 4,
+              "title": "Online Learning Platform",
+              "slug": "online-learning-platform",
+              "description": "A learning management system (LMS) where users can enroll in courses, track progress, and complete assignments, all built with MERN stack.",
+              "price": 499.99,
+              "developer": "David Lee",
+              "isFeatured": true,
+              "image": "/projects/learning-platform.jpg"
+            },
+            {
+              "id": 5,
+              "title": "Job Portal",
+              "slug": "job-portal",
+              "description": "A job board platform that allows employers to post jobs and job seekers to apply, complete with profile management and notifications.",
+              "price": 349.99,
+              "developer": "Rachel Green",
+              "isFeatured": false,
+              "image": "/projects/job-portal.webp"
+            },
+            {
+              "id": 6,
+              "title": "Real Estate Listing App",
+              "slug": "real-estate-listing-app",
+              "description": "A real estate platform for listing properties, advanced search filters, and agent-client communication, built with MERN stack.",
+              "price": 279.99,
+              "developer": "Michael Scott",
+              "isFeatured": true,
+              "image": "/projects/real-estate.jpg"
+            },
+            {
+              "id": 7,
+              "title": "Recipe Sharing Platform",
+              "slug": "recipe-sharing-platform",
+              "description": "A user-driven platform where individuals can share and discover new recipes, with features for saving favorites and ratings.",
+              "price": 179.99,
+              "developer": "Angela Martin",
+              "isFeatured": false,
+              "image": "/projects/recipe-platform.jpg"
+            },
+            {
+              "id": 8,
+              "title": "Travel Booking App",
+              "slug": "travel-booking-app",
+              "description": "An app for booking flights, hotels, and car rentals, with real-time availability updates and user reviews, built with MERN stack.",
+              "price": 399.99,
+              "developer": "Jim Halpert",
+              "isFeatured": true,
+              "image": "/projects/travel-booking.png"
+            },
+            {
+              "id": 9,
+              "title": "Fitness Tracker",
+              "slug": "fitness-tracker",
+              "description": "A fitness app that allows users to track workouts, set goals, and monitor progress with charts and notifications.",
+              "price": 149.99,
+              "developer": "Pam Beesly",
+              "isFeatured": false,
+              "image": "/projects/fitness-tracker.png"
+            },
+            {
+              "id": 10,
+              "title": "Blogging Platform",
+              "slug": "blogging-platform",
+              "description": "A user-friendly blogging platform with post creation, editing, and commenting features, built with MERN stack.",
+              "price": 99.99,
+              "developer": "Dwight Schrute",
+              "isFeatured": true,
+              "image": "/projects/blogging-platform.png"
+            }
+          
+    ]
+}
