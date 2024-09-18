@@ -2,7 +2,7 @@
 
 import { cn } from "@/app/utils/cn";
 
-import Image from "next/image";
+
 import React, {
   createContext,
   useState,
@@ -39,12 +39,14 @@ export const CardContainer = ({
   const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
     setIsMouseEntered(true);
     if (!containerRef.current) return;
+    e.preventDefault();
   };
 
   const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!containerRef.current) return;
     setIsMouseEntered(false);
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    e.preventDefault();
   };
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>

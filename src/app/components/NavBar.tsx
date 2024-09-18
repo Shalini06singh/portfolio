@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "../utils/cn";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ function NavBar({ className }: { className?: string }) {
     <div
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
-      <Menu setActive={setActive}>
+      <Menu setActive={setActive} key={null}>
         <Link href={"/"}>
           <MenuItem
             setActive={setActive}

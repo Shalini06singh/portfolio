@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// import { IconAppWindow } from "@tabler/icons-react";
 import courseData from "../data/projects.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
