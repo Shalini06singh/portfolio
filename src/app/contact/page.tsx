@@ -5,7 +5,7 @@ import { Meteors } from "../components/ui/meteors";
 
 
 
-function page() {
+function Page() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -79,4 +79,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
