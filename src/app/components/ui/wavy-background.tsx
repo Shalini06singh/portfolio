@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { cn } from "@/app/utils/cn";
 
@@ -16,7 +17,7 @@ export const WavyBackground = ({
   waveOpacity = 0.5,
   ...props
 }: {
-  children?: string | number | boolean | null | any;
+  children?: any;
   className?: string;
   containerClassName?: string;
   colors?: string[];
@@ -33,8 +34,8 @@ export const WavyBackground = ({
     nt: number,
     i: number,
     x: number,
-    ctx: string | number | boolean | null | any,
-    canvas: string | number | boolean | null | any;
+    ctx: any,
+    canvas: any;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const getSpeed = () => {
     switch (speed) {
