@@ -5,24 +5,24 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const createContent = [
   {
-    title: "Your Web App, Your Way: Custom Solutions with MERN",
+    title: "Software Trainee (Internship)",
     description:
-      "Every web project is unique, and so is my approach. As a MERN stack developer, I provide personalized development services to bring your ideas to life. Whether it's building a dynamic front-end with React or structuring a powerful back-end with Node.js and MongoDB, my work ensures a tailored solution that meets your specific needs and grows with your ambitions.",
+      "B.Tech Student from Noida Institute of Engineering and Technology completed the project from 8th May 2023 to 8th November 2023,Under training period,developed “E-commerce platform” using “MERN Stack” Technology",
   },
   {
-    title: "Unlock Your Digital Potential with MERN Stack Development",
+    title: "Academic Project1 (Farm2Fork)",
     description:
-      "Your project deserves a developer who understands your vision. I specialize in creating custom web solutions using the MERN stack, combining MongoDB, Express, React, and Node.js to build apps that are as unique as your business. With a personalized, hands-on approach, I ensure that every feature is designed to support your growth and success.",
+      "Full-stack e-commerce solution created using React Redux Toolkit for dynamic client-side experiences, paired with a Node, Express API backend and MongoDB database. Robust cart management with add-to-cart and remove cart options. Comprehensive user authentication and authorization for a tailored shopping experience.",
   },
   {
-    title: "Tailored Web Applications for Your Needs: MERN Stack Development",
+    title: "Academic Project2 (Elite-Shoppee_Front-end)",
     description:
-      "I offer a personalized, hands-on approach to building web applications with the MERN stack. Each project is developed with your goals at the forefront, ensuring you get a solution that fits your specific requirements. Whether it’s crafting an intuitive front-end or building a robust API, I’m here to help you succeed in every phase of your development journey.",
+      "Front-End Project with essential e-commerce functionalities including search, add-to-cart, checkout and remove-from-cart. Using HTML, CSS, React JS, Redux Toolkit, Bootstrap, and Firebase.",
   },
   {
-    title: "Craft Your Future with MERN Stack: Personalized Web Solutions",
+    title: "Academic Project3 (Blog-Management-System)",
     description:
-      "Embark on a development journey tailored to your vision. As a MERN stack developer, I provide personalized solutions to help you create modern, responsive web applications. From front-end design with React to back-end architecture with Node.js and MongoDB, every project is a collaborative effort designed to meet your needs and set the stage for your success.",
+    "Built using Node.js, React.js, JavaScript, Bootstrap, and REST API. For smooth management of blogs, including features of login, register, and logout system.",
   },
 ];
 function Choose() {

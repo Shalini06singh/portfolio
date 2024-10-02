@@ -3,6 +3,7 @@ import React from "react";
 import courseData from "../data/projects.json";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
+import { Button } from "./ui/moving-border";
 
 interface Project {
   id: number;
@@ -23,11 +24,48 @@ function Featured() {
     <div className="py-12 bg-gray-900">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-800 font-semibold tracking-wide uppercase">
+          <h2 className="text-base text-rose-500 font-semibold tracking-wide uppercase">
             SKILLS
           </h2>
           <p className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-white sm:text-2xl">
-            NEXT NODE REACT EXPRESS MONGODB JAVA
+           
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              NEXT
+            </Button>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              NODE
+            </Button>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              REACT
+            </Button>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              EXPRESS
+            </Button>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              MONGODB
+            </Button> 
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              JAVA
+            </Button>
+
           </p>
         </div>
       </div>
@@ -35,7 +73,7 @@ function Featured() {
       <div className="mt-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredProjects.map((project: Project) => (
-            <div key={project.id} className="flex justify-center">
+             <div key={project.id} className="flex justify-center">
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                   <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">

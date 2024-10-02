@@ -12,9 +12,9 @@ export default function Home() {
       <Sections />
       <Featured />
       <Choose />
-      <Testimonial />
-      <Upcoming/>
-      <Learners/>
+      {/* <Testimonial /> */}
+      {/* <Upcoming/> */}
+      {/* <Learners/> */}
       <Footer/>
     </main>
   );

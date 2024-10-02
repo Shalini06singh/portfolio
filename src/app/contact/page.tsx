@@ -36,12 +36,11 @@ function Page() {
         </div>
 
         <h1 className="font-bold text-xl text-white mb-4 relative z-50 ">
-         Contact Us
+        Feel Free to Contact 
         </h1>
 
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          We&apos;re here to help with any questions about our courses,
-          programs, or events. Reach out and let us know how we can assist you.
+        Please contact me directly at singh0605shalini@gmail.com through this form.
         </p>
 
 
