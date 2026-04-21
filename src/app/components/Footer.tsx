@@ -79,7 +79,7 @@ microservices using Node.js, Express.js, Java,Spring Boot.
       <p>Phone: (123) 456-7890</p>
     </div>
     </div>
-    <p className="text-center text-xs pt-8">© 2025 Made with LOVE by Shalini Singh.</p>
+    <p className="text-center text-xs pt-8">© 2026 Made with LOVE by Shalini Singh.</p>
 </footer>
   );
 }
