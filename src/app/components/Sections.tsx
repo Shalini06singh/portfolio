@@ -18,11 +18,12 @@ function Sections() {
           Hi.. I am Shalini Singh.
         </h2>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Proficient in developing responsive UIs and Full-stack applications
-          using MongoDB, Express.js, React.js, Node.js, and Next.js.My tech stack is
-          Java, JavaScript, React, Next.js, Node.js, and MongoDB.I am always looking forward to learn new
-          technologies. I am currently looking for a full-time position/intern
-          as a software developer/engineer.
+          Developer proficient in building scalable, high-performance
+          applications using RESTful APIs and microservices using Node.js,
+          Express.js, Java, and Spring Boot. Proficient in JWT-based
+          authentication, role-based access control, MVC architecture, and ORM
+          frameworks. Experienced with Azure DevOps, REST APIs, and SQL;
+          currently expanding expertise in Python, data pipelines
         </p>
         <div className="mt-4">
           <Link href={"/projects"}>

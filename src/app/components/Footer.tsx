@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
       <p className="mb-4">
-       SSoftware Developer building scalable, high-performance applications using RESTful APIs & 
+       Software Developer building scalable, high-performance applications using RESTful APIs & 
 microservices using Node.js, Express.js, Java,Spring Boot. 
       </p>
     </div>
