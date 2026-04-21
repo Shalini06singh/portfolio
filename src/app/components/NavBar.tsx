@@ -36,7 +36,7 @@ function NavBar({ className }: { className?: string }) {
             item="Contact"
           ></MenuItem>
         </Link>
-        <Link href={"https://drive.google.com/file/d/13-pynv0d0Q3g2cClTO5qX8vFD7obESiX/view?usp=sharing"}>
+        <Link href={"https://drive.google.com/file/d/1ynZGZoNUktnUN22McDiZb0MZeCQ2jgpg/view?usp=sharing"}>
           <MenuItem
             setActive={setActive}
             active={active}
