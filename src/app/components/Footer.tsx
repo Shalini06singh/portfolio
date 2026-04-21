@@ -7,7 +7,8 @@ function Footer() {
     <div>
       <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
       <p className="mb-4">
-       Software Developer skilled in MERN stack technologies and problem solving using Java programming language
+       SSoftware Developer building scalable, high-performance applications using RESTful APIs & 
+microservices using Node.js, Express.js, Java,Spring Boot. 
       </p>
     </div>
     <div>
@@ -78,7 +79,7 @@ function Footer() {
       <p>Phone: (123) 456-7890</p>
     </div>
     </div>
-    <p className="text-center text-xs pt-8">© 2024 Made with LOVE by Shalini Singh.</p>
+    <p className="text-center text-xs pt-8">© 2025 Made with LOVE by Shalini Singh.</p>
 </footer>
   );
 }

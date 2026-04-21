@@ -12,7 +12,7 @@ function Sections() {
           fill="white"
         />
         <h1 className="mt-20 md:mt-0 text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          MERN Stack Developer
+          Software Developer
         </h1>
         <h2 className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Hi.. I am Shalini Singh.
