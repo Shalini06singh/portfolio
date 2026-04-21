@@ -64,7 +64,7 @@ microservices using Node.js, Express.js, Java,Spring Boot.
           GitHub
         </a>
         <a
-          href="singh0605shalini@gmail.com"
+          href="mailto:singh0605shalini@gmail.com"
           className="hover:text-white transition-colors duration-300"
         >
           Gmail
